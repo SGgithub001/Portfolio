@@ -30,7 +30,8 @@ const About = () => {
                         />
                     </h3>
                     <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'>
-I am a passionate Java Backend Developer with strong skills in Java, Spring Boot, RESTful APIs, and database design. I enjoy building clean, scalable, and efficient backend systems while continuously learning new technologies. I am dedicated to writing high-quality code, solving real-world problems, and creating reliable and impactful digital solutions.                    </p>
+                        I am a passionate Java Backend Developer with strong skills in Java, Spring Boot, RESTful APIs, and database design. I enjoy building clean, scalable, and efficient backend systems while continuously learning new technologies. I am dedicated to writing high-quality code, solving real-world problems, and creating reliable and impactful digital solutions.
+                    </p>
 
                     <Link to={profileLinks.resume} target='_blank' rel="noopener noreferrer" className='inline-block pb-8'>
                         <button className='bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:scale-105 transition-transform duration-300'>
@@ -38,7 +39,7 @@ I am a passionate Java Backend Developer with strong skills in Java, Spring Boot
                         </button>
                     </Link>
                 </div>
-                <div className='md:w-1/2 flex justify-center md:justify-end items-start mt-[-200px] ml-[50px]'>
+                <div className='md:w-1/2 flex justify-center md:justify-end'>
                        <Tilt
                            tiltMaxAngleX={20}
                            tiltMaxAngleY={20}
@@ -47,7 +48,7 @@ I am a passionate Java Backend Developer with strong skills in Java, Spring Boot
                            scale={1.05}
                            gyroscope={true}
                           >
-                            <img src={profile} alt="Sushil Gupta" className='w-65 h-65 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-lg border-4 border-purple-500' />
+                            <img src={profile} alt="Sushil Gupta" className='w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover shadow-lg border-4 border-purple-500' />
                        </Tilt>                
                 </div>
             </div>
