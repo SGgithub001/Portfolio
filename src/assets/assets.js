@@ -26,6 +26,7 @@ import versel from "./images/vercel.png";
 import netlify from "./images/netlify.png";
 import compass from "./images/mc.png";
 import xampp from "./images/xampp.png";
+import Quiz from "./images/Quiz.png";
 
 export const profile = Profile;
 
@@ -147,15 +148,16 @@ export const education = [
 ];
 
 export const projects = [
-    // {
-    //     id: 0,
-    //     title: "CounselDesk: AI-Powered Legal Services Platform",
-    //     description: "CounselDesk is an AI-driven legal services platform designed to simplify access to legal guidance. It provides intelligent document drafting, case consultation, and lawyer-user communication through a secure and scalable MERN stack architecture. Integrated with Google Auth and JWT authentication, it ensures seamless, secure user management and real-time interactions.",
-    //     image: CounselDesk,
-    //     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    //     github: "https://github.com/Aayush6377/CounselDesk",
-    //     webapp: "https://counsel-desk.vercel.app"
-    // },
+    {
+    id: 0,
+    title: "QuizApp : Interactive Quiz Game",
+    description: "QuizApp is a Java-based desktop quiz application featuring multiple-choice questions, score calculation, and a clean, interactive GUI built using Java Swing. The project is designed to enhance logical learning through a simple yet engaging quiz experience.",
+    image: Quiz,
+    tags: ["Java", "Swing", "OOP", "GUI", "Desktop App"],
+    github: "https://github.com/SGgithub001/QuizApp",
+    webapp: null
+}
+
     // {
     //     id: 1,
     //     title: "ReadSphere – Content Management System",
